@@ -1,0 +1,6 @@
+flask
+numpy
+fastai.vision.all
+fastai.data.external
+fastbook
+gunicorn
