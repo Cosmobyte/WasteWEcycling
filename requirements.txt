@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 torch==1.7.1+cpu 
-torchvision==0.7.0+cpu 
+torchvision==0.10.0+cpu
 flask
 fastbook
 fastai>=2.3.1
