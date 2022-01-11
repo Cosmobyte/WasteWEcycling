@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from fastbook import load_learner
 from fastai.vision.all import *
 from fastai.data.external import *
 
