@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
 from fastai.vision.all import *
 from fastai.data.external import *
+import pathlib
 
 import pickle
 
-
+plt = platform.system()
+if plt == 'Windows': pathlib.WindowsPath = pathlib.PosixPath
 
 model = load_learner("my_export1.pkl")
 
