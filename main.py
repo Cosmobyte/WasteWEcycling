@@ -5,8 +5,9 @@ import pathlib
 
 import pickle
 
+
 plt = platform.system()
-if plt == 'Windows': pathlib.WindowsPath = pathlib.PosixPath
+pathlib.WindowsPath = pathlib.PosixPath
 
 model = load_learner("my_export1.pkl")
 
