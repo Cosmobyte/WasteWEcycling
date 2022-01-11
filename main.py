@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route("/predict", methods=["POST"])
 def process_image():
-    file = request.files['file']
+    file = request.files['image0']
     # Read the image via file.stream
     
     img_pil = PILImage.create(file)
